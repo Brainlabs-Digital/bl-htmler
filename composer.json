@@ -1,0 +1,26 @@
+{
+    "name": "brainlabs/htmler",
+    "description": "Builds HTML for emails",
+    "license": "proprietary",
+    "prefer-stable": true,
+
+    "require": {
+        "tijsverkoyen/css-to-inline-styles": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "squizlabs/php_codesniffer": "^3.2",
+        "phan/phan": "^1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Brainlabs\\Htmler\\": "src/Brainlabs/Htmler"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brainlabs\\Htmler\\Test\\": "tests",
+            "Brainlabs\\Htmler\\Examples\\": "examples"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+body {
+  font-family: arial;
+  font-size: 16px
+}
+th {
+  text-align: left;
+  color: white;
+  background-color: #009fe3;
+  padding: 10px;
+}
+table {
+  margin-left: 40px;
+  border-collapse: collapse;
+  border: 2px solid #009fe3;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: aliceblue;
+}
+td {
+  padding: 10px;
+  text-align: left;
+}
+p.error {
+  color: red;
+  font-weight: bold;
+}
+p.emphasis {
+  color: #009fe3;
+  font-weight: bold;
+}
+div {
+  padding: 20px;
+}

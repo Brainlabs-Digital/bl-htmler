@@ -1,0 +1,21 @@
+{
+    "nesting": [
+	"a",
+	"body",
+	"div",
+	"head",
+	"html",
+	"li",
+	"p",
+	"table",
+	"td",
+	"th",
+	"title",
+	"tr",
+	"ul",,,,,,,,,
+    ],
+    "void": [
+	"br",
+	"meta"
+    ]
+}
